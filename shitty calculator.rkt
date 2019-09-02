@@ -1,5 +1,7 @@
 #lang racket
 
+;TODO: figure out how to parse input and pass those arguments instead of read-line
+
 (define (calculatorLoop)
   (display "shitty calculator 3000 (+,-,*, /, exit)")
   (define command (read-line))
